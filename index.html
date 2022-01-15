@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venta de Sofas | Kikuko</title>
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arimo&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/eee10799b3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div class="carrito carrito-oculto">
+        <div id="mensaje" class="mensaje-oculto"><p id="mnsg">Carrito Vacio</p></div>
+        <table id="table" class="contenedor-oculto">
+            <thead>
+                <tr>
+                    <th>Imagen</th>
+                    <th>Nombre</th>
+                    <th>Precio</th>
+                    <th>Cantidad</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
+
+    <nav>
+        <div class="menu">
+            <div id="logo">
+                <b>Kikuko</b>
+            </div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Producto</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Page</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+
+        <div class="menu-search">
+            <div id="input-search">
+                <input type="search" placeholder="Search products">
+                <i class="fas fa-search"></i>
+            </div>
+            <i class="fas fa-shopping-cart button-car"></i>
+
+        </div>
+    </nav>
+
+
+
+    <header>
+        <div id="info-header">
+            <h4>70% sale off</h4>
+            <h1>furniture at cost</h1>
+            <p>Lorem ipsum dolor siteriam suscipit aiet maxime facilis, mollitia dolorum error blanditiis fugit impedit tempore ad cupiditate vero?</p>
+            <button>discover more</button>
+        </div>
+    </header>
+
+
+    <section class="popular-products">
+        <h1>popular products</h1>
+        <p>Lorem ipsum dolor tur voluptas quas q obcaecati veniam aperiam aliquam id. Architecto, in.</p>
+        <div class="productos">
+            <article class="producto">
+                <div class="image-producto"><img src="./img/couch1.jpg" alt="Couch"></div>
+                <div class="info">
+                    <h1 id="title-product">Bly Microfiber</h1>
+                    <p>So soft for the people</p>
+                </div>
+                <div class="actions">
+                    <span>$400.00</span>
+                    <a href="#" data-id="1" id="agregar-carrito">Agregar</a>
+                </div>
+            </article>
+
+            <article class="producto">
+                <div class="image-producto"><img src="./img/couch2.jpg" alt="Couch"></div>
+                <div class="info">
+                    <h1 id="title-product">Bly Microfiber</h1>
+                    <p>So soft for the people</p>
+                </div>
+                <div class="actions">
+                    <span>$400.00</span>
+                    <a href="#" data-id="2" id="agregar-carrito">Agregar</a>
+                </div>
+            </article>
+
+            <article class="producto">
+                <div class="image-producto"><img src="./img/couch3.jpg" alt="Couch"></div>
+                <div class="info">
+                    <h1 id="title-product">Bly Microfiber</h1>
+                    <p>So soft for the people</p>
+                </div>
+                <div class="actions">
+                    <span>$400.00</span>
+                    <a href="#" data-id="3" id="agregar-carrito">Agregar</a>
+                </div>
+            </article>
+
+            <article class="producto">
+                <div class="image-producto"><img src="./img/couch4.jpg" alt="Couch"></div>
+                <div class="info">
+                    <h1 id="title-product">Bly Microfiber</h1>
+                    <p>So soft for the people</p>
+                </div>
+                <div class="actions">
+                    <span>$400.00</span>
+                    <a href="#" data-id="4" id="agregar-carrito">Agregar</a>
+                </div>
+            </article>
+
+        </div>
+    </section>
+
+    <script src="./scripts/modal.js"></script>
+    <script src="./scripts/carrito.js"></script>
+</body>
+</html>
